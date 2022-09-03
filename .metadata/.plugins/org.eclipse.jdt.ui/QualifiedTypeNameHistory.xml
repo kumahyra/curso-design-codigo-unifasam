@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="junit.framework.Assert"/>
+<fullyQualifiedTypeName name="oo_java.Carro"/>
+<fullyQualifiedTypeName name="oo_java.encapsulamento.Carro"/>
+<fullyQualifiedTypeName name="oo_java.heranca.Veiculo"/>
+<fullyQualifiedTypeName name="org.junit.Assert"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="interfaces.CrudDAO"/>
+<fullyQualifiedTypeName name="lsp.coderefactoring.VideoCallManager"/>
+<fullyQualifiedTypeName name="isp.coderefactoring.ScratchCardManager"/>
+</qualifiedTypeNameHistroy>

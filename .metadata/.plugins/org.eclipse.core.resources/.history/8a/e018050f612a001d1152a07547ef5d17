@@ -1,0 +1,5 @@
+package lsp.coderefactoring;
+
+public interface SocialMedia {
+
+}

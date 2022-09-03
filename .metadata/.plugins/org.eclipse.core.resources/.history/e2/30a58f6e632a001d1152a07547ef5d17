@@ -1,0 +1,5 @@
+package isp.coderefactoring;
+
+public interface MoneyManager {
+
+}

@@ -1,0 +1,5 @@
+package osp.coderefactoring;
+
+public interface NotificationService {
+
+}
