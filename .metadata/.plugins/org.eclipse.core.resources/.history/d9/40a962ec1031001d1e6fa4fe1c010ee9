@@ -1,7 +1,0 @@
-package withoutstandard.service;
-
-import withoutstandard.model.Pessoa;
-
-public interface CalculaSalario {
-	public Pessoa calcularSalarioLiquido(Pessoa pessoa);
-}
