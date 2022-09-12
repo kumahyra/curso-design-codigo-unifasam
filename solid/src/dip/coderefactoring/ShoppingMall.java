@@ -12,7 +12,7 @@ public class ShoppingMall {
 	}
 
 	public static void main(String[] args) {
-		BankCard bankCard = new CreditCard();
+		BankCard bankCard = new Pix();
 		ShoppingMall shoppingMall1 = new ShoppingMall(bankCard);
 		shoppingMall1.doPayment("faça um pedido", 10000);
 	}

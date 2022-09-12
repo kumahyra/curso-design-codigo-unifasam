@@ -1,0 +1,28 @@
+package withoutstandard.service;
+
+import java.math.BigDecimal;
+
+public class CalculaSalario {
+	private TipoCargo tipoCargo;
+	
+	public CalculaSalario(TipoCargo TipoCargo){
+		this.tipoCargo = TipoCargo;
+	}	
+	
+	public BigDecimal calcularSalarioLiquido(BigDecimal salarioBruto){
+		BigDecimal salarioLiquido = BigDecimal.ZERO;
+		
+		if(TipoCargo.COORDENADOR.equals(tipoCargo)){
+			salarioLiquido = salarioBruto
+					.add(new BigDecimal("100.00"))
+					.subtract(new BigDecimal("50.00"));
+		}else if(TipoCargo.DIRETOR.equals(tipoCargo)){
+			salarioLiquido = salarioBruto
+					.add(new BigDecimal("250.00"))
+					.subtract(new BigDecimal("60.00"));
+		}
+		
+		return salarioLiquido;
+	}
+	
+}

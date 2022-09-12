@@ -6,5 +6,9 @@ public class NotificationService {
             //escreve a lógica relacionada ao e-mail 
             // usa JavaMailSenderAPI
         }
+        if (medium.equals("sms")) {
+            //escreve a lógica relacionada ao e-mail 
+            // usa JavaMailSenderAPI
+        }
     }
 }

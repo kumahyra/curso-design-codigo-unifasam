@@ -1,0 +1,9 @@
+package withoutstandard.service;
+
+import java.math.BigDecimal;
+
+public class Corrdenador implements CalculaSalario {
+	public BigDecimal calcularSalarioLiquido(BigDecimal salarioBruto) {
+		return salarioBruto.add(new BigDecimal("100.00")).subtract(new BigDecimal("50.00"));
+	}
+}

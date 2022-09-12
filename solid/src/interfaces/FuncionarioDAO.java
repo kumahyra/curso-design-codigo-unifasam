@@ -6,7 +6,7 @@ public class FuncionarioDAO implements CrudDAO {
 
 	@Override
 	public void salvar(Object bean) {
-		// TODO Auto-generated method stub
+		System.out.println("Funcionário salvo com sucesso!");
 		
 	}
 

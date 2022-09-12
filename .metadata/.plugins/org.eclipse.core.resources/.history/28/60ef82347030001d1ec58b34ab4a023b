@@ -1,0 +1,9 @@
+package withpattern.service;
+
+import java.math.BigDecimal;
+
+public class Diretor implements CalculaSalario {
+	public BigDecimal calcularSalarioLiquido(BigDecimal salarioBruto) {
+		return salarioBruto.add(new BigDecimal("200.00")).subtract(new BigDecimal("60.00"));
+	}
+}
