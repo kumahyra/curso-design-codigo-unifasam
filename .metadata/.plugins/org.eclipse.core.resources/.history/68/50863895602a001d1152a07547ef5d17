@@ -1,5 +1,0 @@
-package lsp.codesmell;
-
-public abstract class SocialMedia {
-
-}

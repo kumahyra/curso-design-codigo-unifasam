@@ -1,5 +1,0 @@
-package dip.coderefactoring;
-
-public interface BankCard {
-
-}

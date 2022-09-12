@@ -1,5 +1,0 @@
-package lsp.coderefactoring;
-
-public interface SocialPostAndMediaManager {
-
-}

@@ -1,5 +1,0 @@
-package isp.codesmell;
-
-public interface UPIPayments {
-
-}
