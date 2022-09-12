@@ -1,0 +1,13 @@
+package withpattern.service;
+
+import java.math.BigDecimal;
+
+public class ImpressaoHolerite implements CalculaSalario{
+
+	@Override
+	public BigDecimal calcularSalarioLiquido(BigDecimal salarioBruto) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
