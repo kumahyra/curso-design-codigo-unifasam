@@ -1,9 +1,0 @@
-package withpattern.service;
-
-import java.math.BigDecimal;
-
-import withpattern.model.Pessoa;
-
-public interface CalculaSalario {
-	public Pessoa calcularSalarioLiquido(Pessoa pessoa);
-}

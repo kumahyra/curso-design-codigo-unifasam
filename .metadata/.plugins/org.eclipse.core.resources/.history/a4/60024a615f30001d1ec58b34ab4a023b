@@ -1,7 +1,0 @@
-package withoutstandard.service;
-
-import java.math.BigDecimal;
-
-public interface CalculaSalario {
-	public BigDecimal calcularSalarioLiquido(BigDecimal salarioBruto);
-}

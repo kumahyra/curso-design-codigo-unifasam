@@ -1,7 +1,0 @@
-package withpattern.service;
-
-public enum TipoCargo {
-	COORDENADOR,
-	DIRETOR,
-	PROFESSOR
-}

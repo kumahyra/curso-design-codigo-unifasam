@@ -1,9 +1,0 @@
-package withoutstandard.service;
-
-import java.math.BigDecimal;
-
-import withoutstandard.model.Pessoa;
-
-public interface CalculaSalario {
-	public Pessoa calcularSalarioLiquido(Pessoa pessoa);
-}
